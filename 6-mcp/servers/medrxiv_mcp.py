@@ -14,7 +14,7 @@ import requests
 from fastmcp import FastMCP
 
 # Сетевые настройки сервера (совместимо с текущим FastMCP API)
-MEDRXIV_HOST = os.getenv("MEDRXIV_HOST", "0.0.0.0")
+MEDRXIV_HOST = os.getenv("MEDRXIV_HOST", "158.160.175.155")
 MEDRXIV_PORT = int(os.getenv("MEDRXIV_PORT", "8001"))
 
 # Создаём MCP сервер
