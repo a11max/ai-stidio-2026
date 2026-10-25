@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 
 from fastmcp import FastMCP
 
-NOTES_HOST = os.getenv("NOTES_HOST", "0.0.0.0")
+NOTES_HOST = os.getenv("NOTES_HOST", "158.160.175.155")
 NOTES_PORT = int(os.getenv("NOTES_PORT", "8000"))
 
 mcp = FastMCP("PersonalNotes", host=NOTES_HOST, port=NOTES_PORT)
