@@ -14,7 +14,7 @@ import feedparser
 from fastmcp import FastMCP
 
 # Сетевые настройки сервера (совместимо с текущим FastMCP API)
-ARXIV_HOST = os.getenv("ARXIV_HOST", "0.0.0.0")
+ARXIV_HOST = os.getenv("ARXIV_HOST", "158.160.175.155")
 ARXIV_PORT = int(os.getenv("ARXIV_PORT", "8000"))
 
 # Создаём MCP сервер
