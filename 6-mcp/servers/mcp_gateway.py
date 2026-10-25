@@ -33,7 +33,7 @@ from types import ModuleType
 from fastmcp import FastMCP
 
 GATEWAY_FILENAME = Path(__file__).name
-GATEWAY_HOST = os.getenv("GATEWAY_HOST", "0.0.0.0")
+GATEWAY_HOST = os.getenv("GATEWAY_HOST", "158.160.175.155")
 GATEWAY_PORT = int(os.getenv("GATEWAY_PORT", "8000"))
 
 
